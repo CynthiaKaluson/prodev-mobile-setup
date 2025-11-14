@@ -1,6 +1,4 @@
 import { StyleSheet } from 'react-native';
-
-import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from 'react-native';
 
 export default function TabOneScreen() {
@@ -8,7 +6,6 @@ export default function TabOneScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>** First App Created**</Text>
       <View style={styles.separator} />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
     </View>
   );
 }
